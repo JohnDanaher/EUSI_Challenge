@@ -1,0 +1,158 @@
+[
+    {
+      "catalogID": "103401008B2340",
+      "acquisitionDateStart": "2023-09-22T11:14:26.000Z",
+      "acquisitionDateEnd": "2023-09-22T11:14:33.000Z",
+      "offNadir": "12.59",
+      "resolution": "0.33",
+      "cloudCoverage": "31.02",
+      "sensor": "WV03",
+      "scanDirection": "Reverse",
+      "satelliteElevation": "76.17",
+      "imageBands": "8-BANDS",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.410587273581342,
+              48.21262399691764
+            ],
+            [
+              11.410587273581342,
+              48.065735886535606
+            ],
+            [
+              11.676255131610162,
+              48.065735886535606
+            ],
+            [
+              11.676255131610162,
+              48.21262399691764
+            ],
+            [
+              11.410587273581342,
+              48.21262399691764
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "catalogID": "103401008B2341",
+      "acquisitionDateStart": "2023-11-22T11:15:26.000Z",
+      "acquisitionDateEnd": "2023-11-22T11:15:33.000Z",
+      "offNadir": "12.59",
+      "resolution": "0.33",
+      "cloudCoverage": "31.02",
+      "sensor": "WV03",
+      "scanDirection": "Reverse",
+      "satelliteElevation": "76.17",
+      "imageBands": "8-BANDS",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.410587273581342,
+              48.21262399691764
+            ],
+            [
+              11.410587273581342,
+              48.065735886535606
+            ],
+            [
+              11.676255131610162,
+              48.065735886535606
+            ],
+            [
+              11.676255131610162,
+              48.21262399691764
+            ],
+            [
+              11.410587273581342,
+              48.21262399691764
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "catalogID": "103401008B2342",
+      "acquisitionDateStart": "2021-09-22T11:15:26.000Z",
+      "acquisitionDateEnd": "2021-09-22T11:15:33.000Z",
+      "offNadir": "12.59",
+      "resolution": "0.33",
+      "cloudCoverage": "13.01",
+      "sensor": "WV03",
+      "scanDirection": "Reverse",
+      "satelliteElevation": "78.17",
+      "imageBands": "8-BANDS",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.375234975532123,
+              40.95914108019369
+            ],
+            [
+              -8.375613408746602,
+              40.95914108019369
+            ],
+            [
+              -8.375613408746602,
+              40.95586370651128
+            ],
+            [
+              -8.375234975532123,
+              40.95586370651128
+            ],
+            [
+              -8.375234975532123,
+              40.95914108019369
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "catalogID": "103401008B2343",
+      "acquisitionDateStart": "2024-09-22T11:15:26.000Z",
+      "acquisitionDateEnd": "2024-09-22T11:15:33.000Z",
+      "offNadir": "14.52",
+      "resolution": "0.33",
+      "cloudCoverage": "22.15",
+      "sensor": "WV03",
+      "scanDirection": "Reverse",
+      "satelliteElevation": "76.11",
+      "imageBands": "8-BANDS",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.96095918709239,
+              53.69124017618739
+            ],
+            [
+              -113.00920603535025,
+              53.69124017618739
+            ],
+            [
+              -113.00920603535025,
+              53.667917364286524
+            ],
+            [
+              -112.96095918709239,
+              53.667917364286524
+            ],
+            [
+              -112.96095918709239,
+              53.69124017618739
+            ]
+          ]
+        ]
+      }
+    }
+  ]
