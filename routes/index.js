@@ -1,6 +1,6 @@
 const router = require('express').Router()
-const satelliteImageRoutes = require('./satelliteImages.routes');
-const orderRoutes = require('./orders.routes');
+const satelliteImageRoutes = require('./satelliteImage.routes');
+const orderRoutes = require('./order.routes');
 
 router.use('/satellite-images', satelliteImageRoutes);
 router.use('/orders', orderRoutes);

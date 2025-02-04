@@ -37,7 +37,7 @@ services:
     volumes:
       - .:/app
       - ./satellite_images.json:/app/satellite_images.json
-    entrypoint: ["./wait-for-it.sh", "db:5432", "--", "/bin/sh", "-c", "node init-db.js && node server.js"]
+    entrypoint: ["./wait-for-it.sh", "db:5432", "--", "/bin/sh", "-c", "node database/db.js && node seeding/init-db.js && node server.js"]
 
 volumes:
   pgdata:
