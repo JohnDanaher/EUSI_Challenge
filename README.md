@@ -76,4 +76,4 @@ Feel free to fork this repository and submit pull requests with improvements.
 - [Freecodecamp](https://www.freecodecamp.org/learn/relational-database/learn-relational-databases-by-building-a-mario-database/build-a-mario-database)
 - [Tutorial on running Postgres in Docker](https://www.youtube.com/watch?v=Hs9Fh1fr5s8)
 - [Docker documentation for Postgres Image](https://www.docker.com/blog/how-to-use-the-postgres-docker-official-image/)
-- [PostGIS documentation]([https://postgis.net/](https://postgis.net/documentation/))
+- [PostGIS documentation](https://postgis.net/documentation/)
