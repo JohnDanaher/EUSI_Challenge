@@ -1,0 +1,3 @@
+# Copilot recommended this as a means of fixing a line ending issue caused by Windows (classic Windows shenanigans)
+
+*.sh text eol=lf
