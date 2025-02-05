@@ -1,3 +1,5 @@
+// Made using 
+
 const request = require("supertest");
 const app = require("../server");
 const pool = require("../database/db");
@@ -12,6 +14,10 @@ describe("Orders API", () => {
 
   afterAll(async () => {
     await pool.end(); // Close DB connection after tests
+  });
+
+  beforeEach(() => {
+    jest.clearAllMocks(); // Clear mock calls before each test
   });
 
   test("GET /orders should return all orders", async () => {
@@ -39,6 +45,7 @@ describe("Orders API", () => {
 
     const response = await request(app).post("/orders/ABC123");
 
+    expect(pool.query).toHaveBeenCalledTimes(2);
     expect(response.status).toBe(201);
     expect(response.text).toBe("Order created successfully");
   });
@@ -48,6 +55,7 @@ describe("Orders API", () => {
 
     const response = await request(app).post("/orders/ABC123");
 
+    expect(pool.query).toHaveBeenCalledTimes(1);
     expect(response.status).toBe(404);
     expect(response.text).toBe("CatalogID not found/incorrect");
   });
@@ -57,6 +65,7 @@ describe("Orders API", () => {
 
     const response = await request(app).post("/orders/ABC123");
 
+    expect(pool.query).toHaveBeenCalledTimes(1);
     expect(response.status).toBe(500);
     expect(response.text).toBe("Internal Server Error");
   });
